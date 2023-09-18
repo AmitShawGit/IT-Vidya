@@ -1,0 +1,275 @@
+body {
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+
+.topnav {
+    background-color: black;
+    color: white;
+    display: flex;
+    height: 30px;
+}
+
+.topnav.topnav a {
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+
+}
+.topnav a:hover {
+    color: #f89c26;
+}
+
+.topnav .adress {
+    padding-left: 5%;
+}
+
+.topnav .icon {
+    padding-left: 70%;
+}
+
+@media (max-width: 950px) {
+    .topnav .icon {
+        padding-left: 67%;
+    }
+
+
+    a.nav-link:hover {
+        background-color: #f89c26;
+    }
+
+}
+
+@media (max-width: 830px) {
+    .topnav .icon {
+        padding-left: 58%;
+    }
+
+}
+
+@media (max-width: 650px) {
+    .topnav .icon {
+        padding-left: 57%;
+    }
+
+}
+
+@media (max-width: 450px) {
+    .topnav .icon {
+        padding-left: 25%;
+    }
+
+}
+
+@media (max-width: 450px) {
+    .navbar-brand {
+        font-family: Copperplate Gothic Bold;
+        font-size: 20px;
+        color: white;
+        padding-left: 5%;
+    }
+}
+
+/*navbarnew*/
+.navbar {
+    background-color: #2a3159;
+}
+
+.navbar-brand {
+    color: white;
+    padding-left: 5%;
+    font-family: Copperplate Gothic Bold;
+    font-size: 30px !important;
+}
+
+.navbar-brand:hover {
+    color: white;
+}
+
+.navbar-nav {
+    padding-left: 45% !important;
+}
+
+@media (max-width:900px) {
+    .navbar-nav {
+        padding-left: 5% !important;
+    }
+
+}
+
+.navbar-nav a {
+    color: white;
+    font-size: 18px;
+}
+
+.navbar-nav a:hover {
+    background-color: orange;
+    width: max-content;
+    color: white;
+    border-radius: 5px;
+}
+
+#clickhere {
+color: #4660f7 !important;
+text-decoration: none !important;
+}    
+.heading {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.ccbtn {
+    background-color: #f89c26 !important;
+    color: white !important;
+}
+
+.ccbtn:hover {
+    border: 1px solid #f89c26 !important;
+    background-color: white !important;
+    color: #f89c26 !important;
+}
+
+.btn-success:hover {
+    border: 1px solid #056f01 !important;
+    background-color: white !important;
+    color: #056f01 !important;
+}
+
+
+
+
+.latest{
+    width: 100%;
+    height: 400px;
+    background-color: white;
+}
+.head{
+    color: #f89c26;
+    text-align: center;
+    font-size: 30px;
+    padding: 12px;
+    font-weight: 600;
+}
+.news a{
+    text-decoration: none;
+    color: #056f01;
+    font-size: 20px;
+}
+/*.form{
+    height: 400px;
+    width: 100%;
+    background-image: url(../Images/bg.jpg);
+    background-attachment: cover;
+}    
+
+input[type="text"],
+input[type="number"],
+input[type="email"]{
+    width: 98%;
+    margin: 10px;
+    background-color: rgb(0,0,0,0);
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 8px;
+}
+::placeholder{
+    color: black;
+    padding: 10px;
+}*/
+.for{
+    background-image: url(../Images/bg.jpg);
+    background-attachment: cover;
+    height: 400px;
+}
+.know{
+    background-color: #f89c26 !important;
+    text-decoration: none;
+    color: white !important;
+    padding: 10px;
+    border-radius: 5px;
+}
+.know:hover{
+    background-color: white !important;
+    color: #f89c26 !important;
+    border-color: #f89c26 !important;
+}
+.rounded img{
+    width: 100px;
+    border-radius: 50%;
+    align-items: center;
+}
+.heading{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+
+/*Footer*/
+.flogo {
+font-family: Copperplate Gothic Bold;
+font-size: 30px !important;
+color:  rgb(222, 222, 222);
+padding-top: 10px;
+padding-left: 60px;
+}
+
+.flogo:hover {
+color: white;
+text-decoration: none;
+}
+
+.ficon {
+padding-top: 10px;
+padding-left: 75%;
+}
+
+.ficon a {
+font-size: 20px;
+padding: 5px;
+color: rgb(222, 222, 222)
+}
+@media (max-width:600px) {
+.ficon {
+padding-top: 10px;
+padding-left: 20%;
+}
+
+}
+
+.ficon a:hover {
+color: white;
+}
+
+/*f content*/
+
+.flist {
+color: white;
+cursor: pointer;
+display: block;
+list-style: none;
+}
+
+.flist li a{
+padding: 5px;
+text-decoration: none;
+color: rgb(222, 222, 222);
+}
+.flist li a:hover{
+color: white;
+}
+.flist li{
+padding: 5px;
+text-decoration: none;
+color: rgb(222, 222, 222);
+}
+.flist li :hover{
+color: white;
+}
+
+.fhead {
+color: #f89c26;
+padding-bottom: 40px !important;
+font-weight: 500;
+}
